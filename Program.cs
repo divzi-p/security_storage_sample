@@ -135,6 +135,7 @@ namespace Azure.Storage.Blobs.Samples
             //@@ string connectionString = "<connection_string>";
             //@@ string containerName = "sample-container";
             //@@ string filePath = "hello.jpg";
+            string password="123";
 
             // Get a reference to a container named "sample-container" and then create it
             BlobContainerClient container = new BlobContainerClient(connectionString, containerName);
